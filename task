@@ -24,6 +24,9 @@ end = time.time()
 
 print(f"Time taken: {end - start:.2f} seconds")
 
+
+
+
 Question 2: Do Django signals run in the same thread as the caller?
 
 
@@ -50,6 +53,9 @@ output:
 [Caller] Thread ID: 139925960177408
 [Signal] Thread ID: 139925960177408
 
+
+
+
 Question 3: Do Django signals run in the same database transaction as the caller?
 
 
@@ -72,6 +78,11 @@ with transaction.atomic():
 Output:
 
 In transaction: True
+
+
+
+
+
 
 Topic: Custom Classes in Python?
 
